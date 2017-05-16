@@ -9,7 +9,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.extra svg path, .extra svg rect, .extra svg circle {
+.extra svg .icon {
   fill: #7f9399;
   -webkit-transition: fill 0.3s ease;
   -moz-transition: fill 0.3s ease;
@@ -17,7 +17,7 @@
   -o-transition: fill 0.3s ease;
   transition: fill 0.3s ease; }
 
-.extra svg:hover path, .extra svg:hover rect, .extra svg:hover circle {
+.extra svg:hover .icon {
   fill: #74b5b0; }
 
 .qpool .header, .expcko .header {
@@ -192,7 +192,7 @@ div.work_thumbnail:hover figcaption {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.extra svg path, .extra svg rect, .extra svg circle {
+.extra svg .icon {
   fill: #7f9399;
   -webkit-transition: fill 0.3s ease;
   -moz-transition: fill 0.3s ease;
@@ -200,7 +200,7 @@ div.work_thumbnail:hover figcaption {
   -o-transition: fill 0.3s ease;
   transition: fill 0.3s ease; }
 
-.extra svg:hover path, .extra svg:hover rect, .extra svg:hover circle {
+.extra svg:hover .icon {
   fill: #74b5b0; }
 
 .qpool .header, .expcko .header {
@@ -308,7 +308,7 @@ nav {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.extra svg path, .extra svg rect, .extra svg circle {
+.extra svg .icon {
   fill: #7f9399;
   -webkit-transition: fill 0.3s ease;
   -moz-transition: fill 0.3s ease;
@@ -316,7 +316,7 @@ nav {
   -o-transition: fill 0.3s ease;
   transition: fill 0.3s ease; }
 
-.extra svg:hover path, .extra svg:hover rect, .extra svg:hover circle {
+.extra svg:hover .icon {
   fill: #74b5b0; }
 
 .qpool .header, .expcko .header {
@@ -373,7 +373,7 @@ nav {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.extra svg path, .extra svg rect, .extra svg circle {
+.extra svg .icon {
   fill: #7f9399;
   -webkit-transition: fill 0.3s ease;
   -moz-transition: fill 0.3s ease;
@@ -381,7 +381,7 @@ nav {
   -o-transition: fill 0.3s ease;
   transition: fill 0.3s ease; }
 
-.extra svg:hover path, .extra svg:hover rect, .extra svg:hover circle {
+.extra svg:hover .icon {
   fill: #74b5b0; }
 
 .qpool .header, .expcko .header {
@@ -436,7 +436,7 @@ nav {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.extra svg path, .extra svg rect, .extra svg circle {
+.extra svg .icon {
   fill: #7f9399;
   -webkit-transition: fill 0.3s ease;
   -moz-transition: fill 0.3s ease;
@@ -444,7 +444,7 @@ nav {
   -o-transition: fill 0.3s ease;
   transition: fill 0.3s ease; }
 
-.extra svg:hover path, .extra svg:hover rect, .extra svg:hover circle {
+.extra svg:hover .icon {
   fill: #74b5b0; }
 
 .qpool .header, .expcko .header {
@@ -484,7 +484,7 @@ nav {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-.extra svg path, .extra svg rect, .extra svg circle {
+.extra svg .icon {
   fill: #7f9399;
   -webkit-transition: fill 0.3s ease;
   -moz-transition: fill 0.3s ease;
@@ -492,7 +492,7 @@ nav {
   -o-transition: fill 0.3s ease;
   transition: fill 0.3s ease; }
 
-.extra svg:hover path, .extra svg:hover rect, .extra svg:hover circle {
+.extra svg:hover .icon {
   fill: #74b5b0; }
 
 .qpool .header, .expcko .header {

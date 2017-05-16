@@ -177,16 +177,12 @@ div.work_thumbnail {
 .extra {
     text-align: center;
     svg {
-        @each $item in $extra-link-components {
-            #{$item} {
-                @extend %icon;
-            }
+        .icon {
+            @extend %icon;
         }
         &:hover {
-            @each $item in $extra-link-components {
-                #{$item} {
-                    @extend %active-icon;
-                }
+            .icon {
+                @extend %active-icon;
             }
         }
     }
