@@ -1,0 +1,40 @@
+@import "../helpers/variables";
+@import "../helpers/placeholder";
+@import "../helpers/mixins";
+
+.expcko {
+    .header {
+        @extend %cropped-header;
+    }
+    .img-header {
+        margin-bottom: -32px;
+    }
+    a:hover, a:focus {
+        text-decoration: none;
+        color: $expedia-color;
+    }
+    .prototype {
+        padding-bottom: 0;
+        @include linear-gradient(to bottom, rgba(0,52,96,0), rgba(0,52,96,0.05),rgba(0,52,96,0.3));
+        .hpadding-lg {
+            padding-bottom: 0;
+        }
+        .prototype_thm {
+            @media (min-width: $break-medium) {
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                float: none;
+                clear: both;
+            }
+        }
+    }
+    .process {
+        padding-top: 0;
+        padding-bottom: 0;
+        img {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

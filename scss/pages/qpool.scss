@@ -1,0 +1,39 @@
+@import "../helpers/variables";
+@import "../helpers/placeholder";
+@import "../helpers/mixins";
+
+.qpool {
+	.img-header {
+		max-width: 235%;
+    	margin-bottom: -128px;
+	}
+	.header {
+		padding-right: 0;
+		@extend %cropped-header;
+	}
+	.intro {
+		margin-top: 84px;
+	}
+	a:hover, a:focus {
+		text-decoration: none;
+		color: $qpool-color;
+	}
+	.concept {
+		color: #fff;
+	    background: url('../assets/math/studying.jpg') center center no-repeat;
+	    background-size: cover;
+	    position: relative;
+		&:before {
+		    content: '';
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		    @include linear-gradient(to right,rgba(59,58,54,.85),rgba(59,58,54,0));
+		}
+		h2 {
+			text-align: left;
+		}
+	}
+}

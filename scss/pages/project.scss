@@ -1,0 +1,106 @@
+@import "../helpers/variables";
+@import "../helpers/placeholder";
+@import "../helpers/mixins";
+
+nav {
+    padding-top: 36px;
+    padding-bottom: 8px;
+    &.footer {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            &:nth-of-type(1) {
+                text-align: left;
+            }
+            &:nth-of-type(2) {
+                text-align: center;
+            }
+            &:nth-of-type(3) {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.project {
+	.vpadding {
+		@include vpadding(18px, 76px);
+	}
+
+	.vpadding-sm {
+		@include vpadding(22px, 32px);
+	}
+
+	.hpadding-lg {
+		@include hpadding(22px, 32px);
+	}
+
+	.hapdding-sm {
+		@include hpadding(10px, 18px);
+	}
+
+	.margin-dv {
+		margin-bottom: 32px;
+	}
+
+	section {
+		padding-top: 64px;
+		padding-bottom: 64px;
+		&:nth-child(odd) {
+			background-color: $background-color-odd;
+		}
+	}
+
+	.header {
+	    font-size: 14.5pt;
+	    h2 {
+	    	text-align: left;
+	    	letter-spacing: 0.35pt;
+	    }
+	}
+
+	h2 {
+	    font-weight: 300;
+	}
+
+	h4 {
+	    font-weight: 200;
+	}
+
+	h2, h4, h5.links {
+	    text-align: center;
+	}
+
+	h1, h2, h3, h4, h5 {
+	    font-family: $head-font;
+	}
+
+	.strong {
+	    font-weight: 400;
+	    font-size: 14.5pt;
+	}
+
+	.overview_role ul {
+	    list-style-type: square;
+	    padding-left: 0px;
+	    list-style-position: inside;
+	}
+
+	.overview_links ul {
+	    list-style: none;
+	    padding-left: 0px;
+	}
+
+	.overview_role, .overview_links {
+	    text-transform: capitalize;
+	}
+
+	a {
+	    color: $secondary-color;
+	}
+}

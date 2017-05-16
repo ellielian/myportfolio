@@ -1,0 +1,43 @@
+@import "variables";
+
+@mixin transition($property, $duration) {
+	-webkit-transition: $property $duration ease;
+    -moz-transition: $property $duration ease;
+    -ms-border-radius: $property $duration ease;
+    -o-transition: $property $duration ease;
+    transition: $property $duration ease;
+}
+
+@mixin linear-gradient($args...) {
+	background: -o-linear-gradient($args); 
+	background: -moz-linear-gradient($args); 
+	background: -webkit-linear-gradient($args); 
+	background: linear-gradient($args);
+}
+
+//apply styles to all elements between two elements
+@mixin between($first,$last) {
+  &:nth-of-type(n+#{$first}):nth-of-type(-n+#{$last}) {
+    @content
+  }
+}
+
+//vertical padding
+@mixin vpadding($small,$large) {
+	padding-left: $small;
+    padding-right: $small;
+	@media screen and (min-width: $break-medium) {
+		padding-left: $large;
+	    padding-right: $large;
+    }
+}
+
+//horizontal padding
+@mixin hpadding($small,$large) {
+	padding-top: $small;
+    padding-bottom: $small;
+    @media screen and (min-width: $break-medium) {
+    	padding-top: $small;
+    	padding-bottom: $large;
+    }
+}

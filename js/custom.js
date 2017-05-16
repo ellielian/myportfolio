@@ -1,6 +1,6 @@
 (function ($) {
   $(document).ready(function(){
-    var navbar = $('.links');
+    var navbar = $('nav');
     $(function () {
         $(window).scroll(function() {
             var windscroll = $(this).scrollTop();

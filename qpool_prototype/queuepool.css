@@ -91,16 +91,20 @@ li {
     background-color: #fafafa;
 }
 
-.info_course {
+.info_hw {
     float: left;
 }
 
-.info_hw {
+.info_course {
     float: right;
 }
 
 .info_q {
     clear: both;
+}
+
+.info_q strong {
+    font-weight: normal;
 }
 
 .line-item-action {

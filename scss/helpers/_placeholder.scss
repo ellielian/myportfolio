@@ -1,0 +1,32 @@
+@import "variables";
+@import "mixins";
+
+%underlined-nav {
+	width: 100%;
+    background: $highlight-color;
+}
+
+%nav-transition {
+	@include transition(all, .3s);
+}
+
+%icon {
+	fill: $secondary-color;
+    @include transition(fill, .3s);
+}
+
+%active-icon {
+	fill: $highlight-color;
+}
+
+%cropped-header {
+	padding-bottom: 0px;
+    overflow: hidden;
+}
+
+%overlay-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	@include transition(opacity, .3s);
+}

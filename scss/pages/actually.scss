@@ -1,0 +1,55 @@
+@import "../helpers/variables";
+@import "../helpers/placeholder";
+@import "../helpers/mixins";
+
+.pm {  
+    a:hover, a:focus {
+        text-decoration: none;
+        color: $actually-color;
+    }
+    .strong {
+        color: $actually-color;
+        font-size: 12.5pt;
+    }
+    .img_frame {
+        position: relative;
+    }
+    .header {
+        padding-bottom: 0;
+    }
+    .process h4, .arch h2 {
+        text-align: left;
+    }
+    .arch {
+        img:nth-of-type(2) {
+            @extend %overlay-img;  
+            &:hover {
+                opacity: 0;
+            }
+        }
+    }
+    .features {
+        p {
+            opacity: 0;
+            margin-bottom: 0;
+            font-size: 11pt;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .img_frame {
+            margin-top: 156px;
+        }
+        img:nth-of-type(2) {
+            opacity: 0;
+            @extend %overlay-img;
+        }
+        & > *{
+            &:hover, &:focus {
+                p, img:nth-of-type(2) {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
