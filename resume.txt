@@ -17,6 +17,8 @@ Human-Centered Design & Engineering
 
 EXPERIENCE
 
+Research Assistant                                    01/2017-05/2017Virtual Embodiment Lab at Cornell UniversityDeveloped VR mini games for team building. Researched novel team interactions with joint embodiment in immersive virtual environment.
+
 UX Design Intern                                      04/2014-06/2014
 Expedia.com
 Designed the responsive website flow for travel package checkout.
@@ -58,7 +60,7 @@ Methods
 Field Research, Persona, Storyboards, UX Journey Map, Usability testing, Web Analytics
 
 Tools
-Adobe Suite, Sketch 3, HTML/CSS, jQuery, d3.js, Sass
+Adobe Suite, Sketch 3, HTML/CSS, javaScript, Sass
 
 Languages
 Madarin, Cantonese, English
