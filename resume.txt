@@ -17,19 +17,15 @@ Human-Centered Design & Engineering
 
 EXPERIENCE
 
-Research Assistant                                    01/2017-05/2017Virtual Embodiment Lab at Cornell UniversityDeveloped VR mini games for team building. Researched novel team interactions with joint embodiment in immersive virtual environment.
-
-UX Design Intern                                      04/2014-06/2014
-Expedia.com
-Designed the responsive website flow for travel package checkout.
-Planned and conducted lab usability test. Created a streamlined
-checkout experience with user-validated designs.
+Research Assistant                                    01/2017-05/2017Virtual Embodiment Lab at Cornell UniversityDeveloped VR mini games for team building. Used the platform’s JavaScript API to implement the movement controls. Researched novel team interactions with joint embodiment in immersive virtual environment.
 
 UX/UI Intern                                         11/2015-12/2015
 day100 (Startup)
-Worked closely with one of the co-founders and designed the product
-interface for first release. Designed and coded the email templates for
-notifications and newsletters.
+Helped build the first version of the product. Designed the web application interface. Designed and coded the HTML email templates for notifications and newsletters.
+
+UX Design Intern                                      04/2014-06/2014
+Expedia.com
+Designed the responsive website flow for travel package checkout. Planned and conducted lab usability test. Created a streamlined checkout experience with user-validated designs.
 
 
 PROJECTS
@@ -57,10 +53,10 @@ Design
 Sketching, Wireframes, Info Architecture, Design Specs, Data Visualization, Illustration
 
 Methods
-Field Research, Persona, Storyboards, UX Journey Map, Usability testing, Web Analytics
+Field Research, Experiment Design, Persona, Storyboards, Usability testing, Web Analytics
 
 Tools
-Adobe Suite, Sketch 3, HTML/CSS, javaScript, Sass
+Adobe Photoshop, Adobe Illustrator, Sketch 3, HTML/CSS, javaScript, Sass, Bootstrap, ReactJS, d3.js
 
 Languages
 Madarin, Cantonese, English

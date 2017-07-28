@@ -1,0 +1,38 @@
+.pm .arch img:nth-of-type(2), .pm .features img:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-border-radius: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+.pm a:hover, .pm a:focus {
+  text-decoration: none;
+  color: #1ABC9C; }
+.pm .strong {
+  color: #1ABC9C;
+  font-size: 12.5pt; }
+.pm .img_frame {
+  position: relative; }
+.pm .header {
+  padding-bottom: 0; }
+.pm .process h4, .pm .arch h2 {
+  text-align: left; }
+.pm .arch img:nth-of-type(2):hover {
+  opacity: 0; }
+.pm .features p {
+  opacity: 0;
+  margin-bottom: 0;
+  font-size: 11pt;
+  padding-left: 0;
+  padding-right: 0; }
+.pm .features .img_frame {
+  margin-top: 156px; }
+.pm .features img:nth-of-type(2) {
+  opacity: 0; }
+.pm .features > *:hover p, .pm .features > *:hover img:nth-of-type(2), .pm .features > *:focus p, .pm .features > *:focus img:nth-of-type(2) {
+  opacity: 1; }
+
+/*# sourceMappingURL=actually.css.map */

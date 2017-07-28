@@ -1,0 +1,15 @@
+.intern a:hover, .intern a:focus {
+  text-decoration: none;
+  color: #F14700; }
+.intern .process h5 {
+  text-align: center; }
+@media (min-width: 992px) {
+  .intern .process .step {
+    text-align: right; } }
+.intern .process .description {
+  border-left: 3px solid #F14700; }
+  .intern .process .description .sidenote {
+    font-weight: 300;
+    font-size: 11pt; }
+
+/*# sourceMappingURL=intern.css.map */

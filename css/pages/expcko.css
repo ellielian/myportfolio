@@ -1,0 +1,32 @@
+.expcko .header {
+  padding-bottom: 0px;
+  overflow: hidden; }
+
+.expcko .img-header {
+  margin-bottom: -32px; }
+.expcko a:hover, .expcko a:focus {
+  text-decoration: none;
+  color: #003460; }
+.expcko .prototype {
+  padding-bottom: 0;
+  background: -o-linear-gradient(to bottom, rgba(0, 52, 96, 0), rgba(0, 52, 96, 0.05), rgba(0, 52, 96, 0.3));
+  background: -moz-linear-gradient(to bottom, rgba(0, 52, 96, 0), rgba(0, 52, 96, 0.05), rgba(0, 52, 96, 0.3));
+  background: -webkit-linear-gradient(to bottom, rgba(0, 52, 96, 0), rgba(0, 52, 96, 0.05), rgba(0, 52, 96, 0.3));
+  background: linear-gradient(to bottom, rgba(0, 52, 96, 0), rgba(0, 52, 96, 0.05), rgba(0, 52, 96, 0.3)); }
+  .expcko .prototype .hpadding-lg {
+    padding-bottom: 0; }
+  @media (min-width: 768px) {
+    .expcko .prototype .prototype_thm {
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      clear: both; } }
+.expcko .process {
+  padding-top: 0;
+  padding-bottom: 0; }
+  .expcko .process img {
+    padding-left: 0;
+    padding-right: 0; }
+
+/*# sourceMappingURL=expcko.css.map */

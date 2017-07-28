@@ -1,0 +1,34 @@
+.qpool .header {
+  padding-bottom: 0px;
+  overflow: hidden; }
+
+.qpool .img-header {
+  max-width: 235%;
+  margin-bottom: -128px; }
+.qpool .header {
+  padding-right: 0; }
+.qpool .intro {
+  margin-top: 84px; }
+.qpool a:hover, .qpool a:focus {
+  text-decoration: none;
+  color: #bf6580; }
+.qpool .concept {
+  color: #fff;
+  background: url("../assets/math/studying.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative; }
+  .qpool .concept:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: -o-linear-gradient(to right, rgba(59, 58, 54, 0.85), rgba(59, 58, 54, 0));
+    background: -moz-linear-gradient(to right, rgba(59, 58, 54, 0.85), rgba(59, 58, 54, 0));
+    background: -webkit-linear-gradient(to right, rgba(59, 58, 54, 0.85), rgba(59, 58, 54, 0));
+    background: linear-gradient(to right, rgba(59, 58, 54, 0.85), rgba(59, 58, 54, 0)); }
+  .qpool .concept h2 {
+    text-align: left; }
+
+/*# sourceMappingURL=qpool.css.map */

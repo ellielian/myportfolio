@@ -1,8 +1,8 @@
-#home nav.links a:hover:after, #home nav.links li:first-of-type a:after {
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
   width: 100%;
   background: #74b5b0; }
 
-#home nav, #home nav a {
+#banner nav, #banner nav a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-border-radius: all 0.3s ease;
@@ -61,20 +61,6 @@ a {
 section {
   padding-top: 56px;
   padding-bottom: 56px; }
-  section:nth-of-type(n+2):nth-of-type(-n+3) {
-    padding-left: 44px;
-    padding-right: 44px; }
-    @media screen and (min-width: 768px) {
-      section:nth-of-type(n+2):nth-of-type(-n+3) {
-        padding-left: 112px;
-        padding-right: 112px; } }
-    section:nth-of-type(n+2):nth-of-type(-n+3) .row > div {
-      padding-left: 10px;
-      padding-right: 10px; }
-      @media screen and (min-width: 768px) {
-        section:nth-of-type(n+2):nth-of-type(-n+3) .row > div {
-          padding-left: 14px;
-          padding-right: 14px; } }
   section .row > div {
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -83,38 +69,41 @@ section {
         padding-top: 10px;
         padding-bottom: 14px; } }
 
-#home {
+#banner {
   padding-bottom: 0;
   text-align: center;
   text-transform: uppercase;
   position: relative; }
-  #home .row {
+  #banner .row {
     margin-left: 0;
     margin-right: 0; }
-    #home .row:first-child {
+    #banner .row:first-child {
       margin-bottom: 28px; }
-  #home nav {
+    #banner .row .head {
+      padding-left: 44px;
+      padding-right: 44px; }
+  #banner nav {
     padding-top: 4px;
     padding-bottom: 4px; }
-    #home nav a:first-of-type :after {
+    #banner nav a:first-of-type :after {
       width: 100%;
       background: #74b5b0; }
-    #home nav ul {
+    #banner nav ul {
       list-style-type: none;
       margin-bottom: 0;
       padding-left: 0; }
-      #home nav ul li {
+      #banner nav ul li {
         display: inline-block;
         padding-left: 24px !important;
         padding-right: 24px !important; }
-    #home nav.links a {
+    #banner nav.links a {
       color: #3b3a36;
       font-family: "Raleway", sans-serif;
       font-size: 14pt;
       font-weight: 100;
       text-decoration: none;
       display: inline-block; }
-      #home nav.links a:after {
+      #banner nav.links a:after {
         content: '';
         display: block;
         margin: auto;
@@ -126,7 +115,7 @@ section {
         -ms-border-radius: width 0.5s ease;
         -o-transition: width 0.5s ease;
         transition: width 0.5s ease; }
-    #home nav.fixed {
+    #banner nav.fixed {
       position: fixed;
       top: 0;
       left: 0;
@@ -134,16 +123,31 @@ section {
       z-index: 1030;
       text-align: center;
       background-color: #fff; }
-      #home nav.fixed a {
+      #banner nav.fixed a {
         font-family: "Raleway", sans-serif;
         font-size: 11.5pt;
         font-weight: 300;
         text-transform: uppercase;
         text-decoration: none; }
-        #home nav.fixed a:hover {
+        #banner nav.fixed a:hover {
           color: #74b5b0; }
-        #home nav.fixed a .active {
+        #banner nav.fixed a .active {
           color: #74b5b0; }
+
+#work, #about {
+  padding-left: 44px;
+  padding-right: 44px; }
+  @media screen and (min-width: 768px) {
+    #work, #about {
+      padding-left: 150px;
+      padding-right: 150px; } }
+  #work .row > div, #about .row > div {
+    padding-left: 10px;
+    padding-right: 10px; }
+    @media screen and (min-width: 768px) {
+      #work .row > div, #about .row > div {
+        padding-left: 14px;
+        padding-right: 14px; } }
 
 div.work_thumbnail figure {
   position: relative; }
@@ -181,11 +185,11 @@ div.work_thumbnail:hover figcaption {
 .extra {
   text-align: center; }
 
-#home nav.links a:hover:after, #home nav.links li:first-of-type a:after {
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
   width: 100%;
   background: #74b5b0; }
 
-#home nav, #home nav a {
+#banner nav, #banner nav a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-border-radius: all 0.3s ease;
@@ -292,16 +296,16 @@ nav {
 .project .overview_links ul {
   list-style: none;
   padding-left: 0px; }
-.project .overview_role, .project .overview_links {
+.project .overview_role {
   text-transform: capitalize; }
 .project a {
   color: #7f9399; }
 
-#home nav.links a:hover:after, #home nav.links li:first-of-type a:after {
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
   width: 100%;
   background: #74b5b0; }
 
-#home nav, #home nav a {
+#banner nav, #banner nav a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-border-radius: all 0.3s ease;
@@ -362,11 +366,11 @@ nav {
   .qpool .concept h2 {
     text-align: left; }
 
-#home nav.links a:hover:after, #home nav.links li:first-of-type a:after {
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
   width: 100%;
   background: #74b5b0; }
 
-#home nav, #home nav a {
+#banner nav, #banner nav a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-border-radius: all 0.3s ease;
@@ -425,11 +429,11 @@ nav {
     padding-left: 0;
     padding-right: 0; }
 
-#home nav.links a:hover:after, #home nav.links li:first-of-type a:after {
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
   width: 100%;
   background: #74b5b0; }
 
-#home nav, #home nav a {
+#banner nav, #banner nav a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-border-radius: all 0.3s ease;
@@ -463,21 +467,23 @@ nav {
 
 .intern a:hover, .intern a:focus {
   text-decoration: none;
-  color: #f14700; }
+  color: #F14700; }
+.intern .process h5 {
+  text-align: center; }
 @media (min-width: 992px) {
   .intern .process .step {
     text-align: right; } }
 .intern .process .description {
-  border-left: 3px solid #f14700; }
+  border-left: 3px solid #F14700; }
   .intern .process .description .sidenote {
     font-weight: 300;
     font-size: 11pt; }
 
-#home nav.links a:hover:after, #home nav.links li:first-of-type a:after {
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
   width: 100%;
   background: #74b5b0; }
 
-#home nav, #home nav a {
+#banner nav, #banner nav a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-border-radius: all 0.3s ease;
@@ -511,9 +517,9 @@ nav {
 
 .pm a:hover, .pm a:focus {
   text-decoration: none;
-  color: #1abc9c; }
+  color: #1ABC9C; }
 .pm .strong {
-  color: #1abc9c;
+  color: #1ABC9C;
   font-size: 12.5pt; }
 .pm .img_frame {
   position: relative; }
@@ -535,3 +541,45 @@ nav {
   opacity: 0; }
 .pm .features > *:hover p, .pm .features > *:hover img:nth-of-type(2), .pm .features > *:focus p, .pm .features > *:focus img:nth-of-type(2) {
   opacity: 1; }
+
+#banner nav.links a:hover:after, #banner nav.links li:first-of-type a:after {
+  width: 100%;
+  background: #74b5b0; }
+
+#banner nav, #banner nav a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-border-radius: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.extra svg .icon {
+  fill: #7f9399;
+  -webkit-transition: fill 0.3s ease;
+  -moz-transition: fill 0.3s ease;
+  -ms-border-radius: fill 0.3s ease;
+  -o-transition: fill 0.3s ease;
+  transition: fill 0.3s ease; }
+
+.extra svg:hover .icon {
+  fill: #74b5b0; }
+
+.qpool .header, .expcko .header {
+  padding-bottom: 0px;
+  overflow: hidden; }
+
+.pm .arch img:nth-of-type(2), .pm .features img:nth-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-border-radius: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; }
+
+.vr a:hover, .vr a:focus {
+  text-decoration: none;
+  color: #FF8A80; }
+
+/*# sourceMappingURL=main.css.map */

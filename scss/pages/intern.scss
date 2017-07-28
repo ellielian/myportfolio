@@ -8,6 +8,9 @@
 		color: $day100-color;
 	}
 	.process {
+		h5 {
+			text-align: center;
+		}
 		.step {
 			@media (min-width: $break-large) {
 				text-align: right;
